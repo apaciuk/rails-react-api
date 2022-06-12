@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :books
   # Import constraints
   require 'constraints/auth_constraint'
 
